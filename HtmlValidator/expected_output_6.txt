@@ -1,0 +1,19 @@
+<!doctype>
+<!-- -->
+<html>
+    <head>
+        <title>
+        </title>
+        <meta>
+        <link>
+    </head>
+    <body>
+        <p>
+            <a>
+            </a>
+        </p>
+        <p>
+            <img>
+        </p>
+    </body>
+</html>

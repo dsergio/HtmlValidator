@@ -1,0 +1,25 @@
+getTags: front [<html>, <body>, <b>, </b>, <i>, <b>, </b>, <br>, </i>, </body>, </html>] back
+validate:
+<html>
+    <body>
+        <b>
+        </b>
+        <i>
+            <b>
+            </b>
+            <br>
+        </i>
+    </body>
+</html>
+
+setTags(front [<html>, <body>, <b>, </body>, </b>, </html>] back)
+getTags: front [<html>, <body>, <b>, </body>, </b>, </html>] back
+validate:
+<html>
+    <body>
+        <b>
+ERROR unexpected tag: </body>
+        </b>
+ERROR unexpected tag: </html>
+ERROR unclosed tag: <body>
+ERROR unclosed tag: <html>

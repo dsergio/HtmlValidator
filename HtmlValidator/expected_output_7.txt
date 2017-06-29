@@ -1,0 +1,23 @@
+<!doctype>
+ERROR unexpected tag: </!doctype>
+<!-- -->
+<html>
+    <head>
+        <title>
+            <meta>
+            <link>
+ERROR unexpected tag: </head>
+ERROR unexpected tag: </head>
+            <body>
+                <p>
+                    <a>
+                    </a>
+                </p>
+                <p>
+                    <img>
+                </p>
+ERROR unexpected tag: </html>
+ERROR unclosed tag: <body>
+ERROR unclosed tag: <title>
+ERROR unclosed tag: <head>
+ERROR unclosed tag: <html>
